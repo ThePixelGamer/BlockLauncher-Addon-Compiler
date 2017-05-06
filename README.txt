@@ -87,7 +87,7 @@ line 37 (TARGET_TOOLCHAIN_LIST := $(filter-out %4.7 %4.8,$(TARGET_TOOLCHAIN_LIST
 -------------------------
 1. Run dirclean.bat
 2. Then type in the root of the repository that needs to be clean
-3. Hate on pixel for not bothering to put in a recent directory system (monday/tuesday)
+3. Hate on pixel for not bothering to put in a recent directory system
 
 
  Uninstalling
@@ -96,4 +96,4 @@ line 37 (TARGET_TOOLCHAIN_LIST := $(filter-out %4.7 %4.8,$(TARGET_TOOLCHAIN_LIST
 2. Delete folder
 
 
-DM me any issues on slack
+DM me any issues on Twitter (@ThePixelCoder)
