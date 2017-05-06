@@ -12,10 +12,9 @@ echo Press a button to clean the text files or click the X button to stop the op
 
 TIMEOUT /T -1
 
-@echo 0 > bool.txt
-@echo .> recdir.txt
-@echo .>> recdir.txt
-@echo .>> recdir.txt
-@echo .> path.txt
+(@echo 0)> "%~dp0bool.txt"
+@echo .> "%~dp0recdir.txt"
+@echo .>> "%~dp0recdir.txt"
+@echo .>> "%~dp0recdir.txt"
 
 PAUSE

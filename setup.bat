@@ -5,14 +5,14 @@ for /f "usebackq tokens=3,*" %%F in (`reg query HKCU\Environment /v PATH`) do (
 set fakepath=%%F
 )
 
-set /p boolpath=<bool.txt
+set /p boolpath=<"%~dp0bool.txt"
 
 if %boolpath% EQU 0 goto option1
 if %boolpath% EQU 1 goto option2
 
 :option1
-@echo %fakepath%> path.txt
-@echo 1> bool.txt
+@echo %fakepath%> "%~dp0path.txt"
+(@echo 1)> "%~dp0bool.txt"
 goto option2
 
 :option2
