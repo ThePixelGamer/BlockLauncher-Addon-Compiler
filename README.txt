@@ -1,5 +1,5 @@
   
-Thank you for taking the time to download and read my boring instructions
+Thank you for taking the time to read my boring instructions
   
   
   Important Info
