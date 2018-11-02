@@ -40,7 +40,7 @@ Before we start you need several files and those being the Android NDK,
 Android SDK, Apache Ant and Java Development Kit.
 
 Download Links:
-Android NDK (r9, link downloads it) - (32bit): http://dl.google.com/android/ndk/android-ndk-r9d-windows-x86_64.zip (64bit): http://dl.google.com/android/ndk/android-ndk-r9d-windows-x86_64.zip
+Android NDK (r9, link downloads it) - (32bit): http://dl.google.com/android/ndk/android-ndk-r9d-windows-x86.zip (64bit): http://dl.google.com/android/ndk/android-ndk-r9d-windows-x86_64.zip
 Android SDK (r25.2.5, link downloads it) - https://dl.google.com/android/repository/tools_r25.2.5-windows.zip
 Apache Ant (latest binary distribution zip) - http://ant.apache.org/bindownload.cgi
 Java DK (top left, whatever os/bit system you're running on) - http://www.oracle.com/technetwork/java/javase/downloads/index.html
